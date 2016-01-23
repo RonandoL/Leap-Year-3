@@ -11,34 +11,41 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
   </head>
+
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Header</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+        <h1>Leap Year</h1>
+        <p><em>Enter in a year, and the page will spit out if it is a leap year or not</em></p>
       </div>  <!-- /JUMBOTRON -->
 
   <!-- Row: 1 -->
       <div class="row">
         <div class="col-sm-12">
 
-  <!-- Form -->        
-          <form class="">
+  <!-- Form -->
+          <form class="leapYear">
             <div class="form-group">
-              <label for="">Lorem Ipsum Baby!:</label>
-              <input class="hotPuddin" type="text" name="name" value="">
-            </div>
-
-            <div class="form-group">
-              <label for="">Lorem Ipsum Baby!:</label>
-              <input class="hotPuddin" type="text" name="name" value="">
+              <label for="">Enter a year:</label>
+              <input class="userInput" type="text" name="name" value="">
             </div>
 
             <button class="btn btn-info" type="submit" name="button">Gimme some sugar baby</button>
-          </form>
+          </form>  <!-- /Form -->
 
         </div>  <!-- /col-sm-12 -->
       </div>  <!-- /Row -->
+
+
+      <div class="row results">
+        <div class="col-sm-12">
+          <hr>
+          <h1 class="output"></h1>
+          <h2 class="outputText">is <span class="not"></span> a leap year.</h2>
+        </div>  <!-- /col-sm-12 -->
+      </div>  <!-- /Row -->
+
+
 
     </div>  <!-- /Container -->
 
