@@ -1,12 +1,12 @@
-# insertApplicationName
+# Leap Year Detector
 
-#### briefDescription, dateOfCurrentVersion_
+#### Tells user if input year is a leap year or not, Jan 23, 2016_
 
-#### By _**insertContributorNumberOne, insertContributorNumberTwo **_
+#### By _**Ronando L**_
 
 ## Description
 
-_insertDetailedDescriptionsOfApplication_
+_User inputs year, app spits out year and if it is a leap year or not._
 
 ## Setup/Installation Requirements
 

@@ -15,4 +15,12 @@ describe('leapYear', function(){
     expect(leapYear(2000)).to.equal(true);
   });
 
+  it("will be show 'error' for input that is not a number", function(){
+    expect(leapYear("error")).to.equal("error");
+  });
+
+  it("will be show 'negative' for input that is a negative number", function(){
+    expect(leapYear(-2004)).to.equal("negative");
+  });
+
 });
